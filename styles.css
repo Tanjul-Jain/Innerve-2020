@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 h2{
 text-align:center;
 font-family: 'Bellota Text';
@@ -13,22 +18,22 @@ font-weight: bold;
 
 #mainsponsor:hover{
     opacity:0.5;
-  }
+}
 body{
-
 background: rgb(192,244,255);
 background: linear-gradient(90deg, rgba(192,244,255,1) 0%, rgba(255,255,255,1) 51%, rgba(174,241,255,1) 100%);
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;}
+background-size: cover;
+}
 
 .text-box{
   position: absolute;
   top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  backface-visibility: hidden;
 }
 
 @keyframes Jump{
@@ -151,9 +156,6 @@ background-size: cover;}
   color:rgba(0,0,0,0.5);
   margin: auto;
   width: 70%;
-
-
-
 }
 
 #contact{
